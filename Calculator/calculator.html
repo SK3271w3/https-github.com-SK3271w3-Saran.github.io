@@ -22,8 +22,24 @@
             num1=parseFloat($('input:text[name=num1]').val());
             num2=parseFloat($('input:text[name=num2]').val());
             funct=parseInt($('input[name="funct"]:checked').val());
-            alert(funct);
-
+            
+            
+            switch(funct){
+                case 0:
+                ans=num1 + num2;
+                break;
+                case 1:
+                ans=num1 - num2;
+                break;
+                case 2:
+                ans=num1 * num2;
+                break;
+                case 3:
+                ans=num1 / num2;
+                break;
+            }
+            $("span").html(ans);
+            
     }
 </script>
 </body>
