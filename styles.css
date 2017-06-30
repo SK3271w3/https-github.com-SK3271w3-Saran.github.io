@@ -14,14 +14,14 @@ h1 {
     text-align: center;
     font-size: 70px
 }
-p {
-    font-family: Georgia;
-    font-size: 50px;
-    color: green;
-}
 #description, tr {
     font-size: 20px;
     text-align: center;
     color: #ff9933;
     font: cursive;
+}
+p {
+  font-family: Georgia;
+    font-size: 50px;
+    color: red;
 }
